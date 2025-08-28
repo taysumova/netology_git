@@ -2,7 +2,7 @@ from app import divide, multiply
 
 def test_divide(a, b):
     c = divide(a,b)
-    test_c = a*b
+    test_c = a/b
     assert c == test_c
 
 def test_multiple(a, b):
